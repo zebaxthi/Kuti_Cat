@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="container-text">
+        <p>home works!</p>
+    </div>
+    <div class="d-flex flex-row-reverse">
+        <!-- <img  [src]="img[0].url" alt=""> -->
+        <p-carousel [value]="cats" [numVisible]="1" [numScroll]="1" [circular]="false" >
+            <ng-template let-cats pTemplate="item">
+                <img  [src]="cats.url" alt="">
+            </ng-template>
+        </p-carousel>
+    </div>
+</div>

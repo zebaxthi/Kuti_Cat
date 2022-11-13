@@ -1,0 +1,26 @@
+img {
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 60%;
+}
+
+p-carousel {
+    max-width: 700px;
+}
+
+// .container {
+//     display: block;
+// }
+
+.container-text {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.container-carrusel {
+    display: flex;
+    align-items: flex-end;
+}
